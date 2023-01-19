@@ -1,0 +1,21 @@
+# 20220112
+
+## SOILD
+
+controller 데이터를 사용자 요청에 맞게 처리하고 그걸 뷰어로 보내주는 역할 (데이터베이스와 메인 통신)
+
+## DTO / VO
+
+Dto : 데이터를 옮길 때 데이터와 시킬 면 Dto
+
+Vo : 데이터베이스부터 받은 값을 객체화 시킬 때만 Vo
+
+ = > Dto안에 Vo (엄청 큰 차이는 없다.)
+
+의존 관계 
+
+DB가 없어서 발생하는 문제다 현재는!
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/03c93059-eeed-42a4-965e-50f66f60af7c/Untitled.png)
+
+대신 너가 유저뷰어를 만들지 말고 내가 만든거 주입해줄게!
